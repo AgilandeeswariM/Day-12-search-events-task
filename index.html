@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Events</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="container">
+        <h1><strong> Search Events</strong> </h1>
+        <div class="row">
+            <div class="col-md-3 event-box">
+                <div class="event-image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL32j4OZIQTNj9O2dI6rGgsIkQxQIorgKIxRqlhgNz4CuOi4YHH7ABXTR2unwI7Hg_qw&usqp=CAU" alt="Event Image">
+                </div>
+                <div class="event-details">
+                    <h3>Event -1 </h3>
+                    <p>15-Oct-2023</p>
+                    <p>Seats Available: 5</p>
+                    <a href="" class="btn btn-primary">Book Now</a>
+                </div>
+            </div>
+            <div class="col-md-3 event-box">
+                <div class="event-image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5oG3dtCmAl6wMJkKJHZUEvGI59V8zsNIRnQzslX0muC0D9D9EquiogPaw5OJ7bMQUAV8&usqp=CAU" alt="Event Image">
+                </div>
+                <div class="event-details">
+                    <h3>Event - 2 </h3>
+                    <p>22-Oct-2023</p>
+                    <p>Seats Available: Nil</p>
+                    <a href="" class="btn btn-primary">Book Now</a>
+                </div>
+            </div>
+            <div class="col-md-3 event-box">
+                <div class="event-image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY8RJ2eEuIDbZCvgKYStYSBZZe7B-ZPYAMYQ&usqp=CAU" alt="Event Image">
+                </div>
+                <div class="event-details">
+                    <h3>Event - 3 </h3>
+                    <p>29-Oct-2023</p>
+                    <p>Seats Available: 13</p>
+                    <a href="" class="btn btn-primary">Book Now</a>
+                </div>
+            </div>
+            <div class="col-md-3 event-box">
+                <div class="event-image">
+                    <img src="data:image/png;base64,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" alt="Event Image">
+                </div>
+                <div class="event-details">
+                    <h3>Event - 4 </h3>
+                    <p>05-Nov-2023</p>
+                    <p>Seats Available: 24</p>
+                    <a href="" class="btn btn-primary">Book Now</a>
+                </div>
+            </div>
+            <div class="col-md-3 event-box">
+                <div class="event-image">
+                    <img src="https://images.pexels.com/photos/2893330/pexels-photo-2893330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Event Image">
+                </div>
+                <div class="event-details">
+                    <h3>Event - 5 </h3>
+                    <p>12-Nov-2023</p>
+                    <p>Seats Available: 30</p>
+                    <a href="" class="btn btn-primary">Book Now</a>
+                </div>
+            </div>
+            <div class="col-md-3 event-box">
+                <div class="event-image">
+                    <img src="https://www.siasat.com/wp-content/uploads/2019/11/events-in-hyderabad.jpg" alt="Event Image">
+                </div>
+                <div class="event-details">
+                    <h3>Event - 6 </h3>
+                    <p>19-Nov-2023</p>
+                    <p>Seats Available: 22</p>
+                    <a href="" class="btn btn-primary">Book Now</a>
+                </div>
+            </div>
+            <div class="col-md-3 event-box">
+                <div class="event-image">
+                    <img src="https://images.pexels.com/photos/1150837/pexels-photo-1150837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Event Image">
+                </div>
+                <div class="event-details">
+                    <h3>Event - 7 </h3>
+                    <p>26-Nov-2023</p>
+                    <p>Seats Available: 13</p>
+                    <a href="" class="btn btn-primary">Book Now</a>
+                </div>
+            </div>
+            <div class="col-md-3 event-box">
+                <div class="event-image">
+                    <img src="https://images.pexels.com/photos/720936/pexels-photo-720936.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Event Image">
+                </div>
+                <div class="event-details">
+                    <h3>Event - 8 </h3>
+                    <p>3-Dec-2023</p>
+                    <p>Seats Available: 17</p>
+                    <a href="" class="btn btn-primary">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
